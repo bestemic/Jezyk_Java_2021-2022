@@ -1,0 +1,40 @@
+public class Main {
+    public static void main(String[] args) {
+        Decoder decoder = new Decoder();
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(0);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(0);
+        System.out.println(decoder.output());
+        decoder.reset();
+        decoder.input(0);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(0);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(0);
+        decoder.input(0);
+        decoder.input(1);
+        decoder.input(1);
+        decoder.input(0);
+        System.out.println(decoder.output());
+        decoder.reset();
+        System.out.println(decoder.output());
+        System.out.println("tu");
+    }
+}
